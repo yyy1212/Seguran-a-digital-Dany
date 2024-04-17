@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap');
+
+
+:root{
+    --branco: white;
+    --cor-de-fundo: #01bac0;
+    --fundo-senha: #01bac0;
+    --fundo-texto: #001E40;
+    --borda: #00ffbf;
+    --roboto: 'Roboto', sans-serif;
+    --roboto-mono: 'Roboto Mono', monospace;
+}
+
+body{
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--roboto);
+}
+
+.titulo-principal{
+    font-family: var(--roboto-mono);
+    font-size: 32px;
+}
+
+.titulo-secundario{
+    font-size: 24px;
+}
