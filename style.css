@@ -2,13 +2,13 @@
 
 
 :root{
-    --branco: rgb(10, 10, 10);
-    --cor-de-fundo: #058fb996;
-    --fundo-senha: hsla(212, 100%, 50%, 0.473);
-    --fundo-texto: #00314057;
-    --borda: #a894df;
-    --jersey: 'Jersey', sans-serif;
-    --jersey-mono: 'Jersey Mono', monospace;
+    --branco: white;
+    --cor-de-fundo: #169599;
+    --fundo-senha: #0ebbb2;
+    --fundo-texto: #001E40;
+    --borda: #00ff956e;
+    --roboto: 'Jersey', sans-serif;
+    --roboto-mono: 'Jersey Mono', monospace;
 }
 
 *{
@@ -107,6 +107,15 @@ body{
     font-size: 24px;
 }
 
+label{
+    font-size: 20px;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
