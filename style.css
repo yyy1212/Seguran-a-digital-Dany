@@ -2,11 +2,11 @@
 
 
 :root{
-    --branco: white;
-    --cor-de-fundo: #ffd2075e;
+    --branco: rgb(10, 10, 10);
+    --cor-de-fundo: #058fb996;
     --fundo-senha: hsla(212, 100%, 50%, 0.473);
-    --fundo-texto: #001E40;
-    --borda: #8e6bec;
+    --fundo-texto: #00314057;
+    --borda: #a894df;
     --jersey: 'Jersey', sans-serif;
     --jersey-mono: 'Jersey Mono', monospace;
 }
